@@ -1,0 +1,24 @@
+{
+  "name": "xdump",
+  "version": "1.0.0",
+  "description": "Dump files as a C language declaration of an array of unsigned char.",
+  "main": "index.js",
+  "bin": {
+    "xdump": "cli.js"
+  },
+  "keywords": [
+    "binary",
+    "c",
+    "array",
+    "header"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rogeriorc/xdump.git"
+  },
+  "author": "rogeriorc@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogeriorc/xdump/issues"
+  }
+}
