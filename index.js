@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 module.exports = function convert(inputFile, outputFile, options) {
-	let varName = options.variableName || 'xd_data',
+	let varName = options.variableName || 'xdump_data',
 		file = fs.readFileSync(inputFile);
 
 	let content = `unsigned char ${varName}[] = {\n`;

@@ -9,10 +9,10 @@ let pkg = require('./package.json'),
 
 if (args.length < 1 || args[0] === `--help`) {
 	let usage = `Usage:\n`;
-	usage += `    xd <input> [output]\n`;
+	usage += `    xdump <input> [output]\n`;
 	usage += `\n`;
 	usage += `Example: convert file.zip to file.h\n`;
-	usage += `    xd file.zip\n`;
+	usage += `    xdump file.zip\n`;
 	usage += `\n`;
 	usage += `Version:\n    ${pkg.version}\n`;
 
@@ -22,7 +22,7 @@ if (args.length < 1 || args[0] === `--help`) {
 }
 
 if (args[0] === '--version' || args[0] === '-V') {
-	console.log(`xd ${pkg.version}`);
+	console.log(`${pkg.version}`);
 	process.exit(0);
 }
 
